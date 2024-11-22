@@ -1,4 +1,4 @@
-/****************** YOUR NAME: 
+/****************** YOUR NAME: NICK BRUNET
 
 The instructions describe the missing logic that is needed; you will translate these into JavaScript in the places indicated.
 
@@ -13,8 +13,8 @@ You are encouraged to use the provided naming convention for ease of review.
 
 
 
-modelName = document.getElementById("model-text")
-duration = document.getElementById("duration-text")
+var modelName = document.getElementById("model-text")
+var duration = document.getElementById("duration-text")
 
 
 /****************** helper function ******************/
@@ -29,7 +29,7 @@ duration = document.getElementById("duration-text")
 
 // INSERT YOUR CODE HERE
 
-costLabel = document.getElementById("calculated-cost")
+var costLabel = document.getElementById("calculated-cost")
 function recalculate()
 {   
     if (modelName.innerHTML == "Model XYZ") {
@@ -55,7 +55,7 @@ function recalculate()
 
 // INSERT YOUR CODE HERE
 
-modelButton = document.getElementById("model-button")
+var modelButton = document.getElementById("model-button")
 function changeModel()
 {
     if (modelName.innerHTML == "Model XYZ") {
@@ -79,7 +79,7 @@ modelButton.addEventListener('click', changeModel)
 
 // INSERT YOUR CODE HERE
 
-durationButton = document.getElementById("duration-button")
+var durationButton = document.getElementById("duration-button")
 function changeDuration()
 {
     const durationNew = prompt("Enter new duration: ")
