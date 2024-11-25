@@ -13,6 +13,7 @@ You are encouraged to use the provided naming convention for ease of review.
 
 
 
+
 var modelName = document.getElementById("model-text")
 var duration = document.getElementById("duration-text")
 
